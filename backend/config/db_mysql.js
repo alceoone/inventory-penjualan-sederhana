@@ -6,5 +6,11 @@ const db = mysql.createConnection({
     password: '',
     database: 'db_inventory_penjualan'
 });
-
+// db.connect((err) => {
+//     if (err) {
+//         console.error('Error connecting to database:', err);
+//     } else {
+//         console.log('Database connected');
+//     }
+// });
 export default db;

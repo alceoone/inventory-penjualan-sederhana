@@ -6,16 +6,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Fajar Kurniawan",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
+    "cookie-session": "^2.0.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mysql2": "^3.3.3",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0"
   }
 }
